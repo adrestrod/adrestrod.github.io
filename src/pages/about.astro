@@ -1,0 +1,56 @@
+---
+import BaseLayout from "../Layouts/BaseLayout.astro";
+
+const pageTitle = "About Me";
+
+const identity = {
+  firstName: "C0rv0",
+  country: "España",
+  occupation: "SIEM Administrator y Threat Hunter",
+  hobbies: [
+    "Cibersec",
+    "videojuegos",
+    "leer",
+    "miniaturas contruibles (Gundam, Warhammer)",
+  ],
+};
+
+const skills = [
+  "SIEM",
+  "Monitoring",
+  "Gestión de fuentes y eventos",
+  "MITRE y SIGMA",
+];
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <p>Here are a few facts about me:</p>
+  <ul>
+    <li>My name is {identity.firstName}.</li>
+    <li>
+      I live in {identity.country} and I work as a {identity.occupation}.
+    </li>
+    {
+      identity.hobbies.length >= 2 && (
+        <li>
+          Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}
+        </li>
+      )
+    }
+  </ul>
+  <p>My skills are:</p>
+  <ul>
+    {skills.map((skill) => <li>{skill}</li>)}
+  </ul>
+  <h2>... and my new Astro site!</h2>
+
+  <p>
+    I am working through Astro's introductory tutorial. This is the second page
+    on my website, and it's the first one I built myself!
+  </p>
+
+  <p>
+    This site will update as I complete more of the tutorial, so keep checking
+    back and see how my journey is going!
+  </p>
+</BaseLayout>
