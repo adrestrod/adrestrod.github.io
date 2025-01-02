@@ -1,16 +1,24 @@
 ---
-import Socials from './Socials.astro';
+import Socials from "./Socials.astro";
 ---
 
 <style>
-    footer {
-      display: flex;
-      gap: 1rem;
-      margin-top: 2rem;
-    }
-  </style>
-  
+  footer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 150ch;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.875rem; /* Adjust as needed */
+    color: #6b7280; /* Adjust colors as desired */
+  }
+</style>
+
 <footer>
-    <p>Copyright ©2024 | All rights reserved | <Socials/> </p>
-    
+  <p>Copyright ©2024 | All rights reserved | <Socials /></p>
 </footer>

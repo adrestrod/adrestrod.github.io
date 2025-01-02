@@ -1,0 +1,29 @@
+---
+const logoSrc = "/IMG_1865.JPG";
+---
+
+<div class="logo-container">
+        <img src={logoSrc} alt="Logo" class="logo-image" />
+</div>
+
+<style>
+    .logo-container {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .logo-link {
+        display: block;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    .logo-image {
+        width: 50px; /* Adjust this value to match the size of other header links */
+        height: 50px; /* Adjust this value to match the size of other header links */
+        object-fit: contain;
+        object-position: center;
+        border-radius: 50%;
+    }
+</style>
