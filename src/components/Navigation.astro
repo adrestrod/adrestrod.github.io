@@ -3,13 +3,14 @@ import ThemeIcon from "./ThemeIcon.astro";
 import IconHomeButton from "./IconHomeButton.astro";
 ---
 
-<div class="nav-links" style="background-color: red;">
-    <a href="/">
-        <IconHomeButton />
-    </a>
-    <a href="/about">About</a>
-    <a href="/blog">Blog</a>
-    <a href="/tags">Tags</a>
-
+<div class="nav-links">
+    <div class="nav-links">
+        <a href="/">
+            <IconHomeButton />
+        </a>
+        <a href="/about">About</a>
+        <a href="/blog">Blog</a>
+        <a href="/tags">Tags</a>
+    </div>
     <ThemeIcon />
 </div>

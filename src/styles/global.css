@@ -52,17 +52,23 @@ html.dark {
 }
 
 .social-icon {
-  fill: #6b7280; /* Default color when light theme */
+  fill: #6b7280;
+  /* Default color when light theme */
   transition: color 0.3s ease;
 }
 
 .nav-links {
   width: 100%;
   top: 5rem;
-  left: 48px;
   background-color: #764B8E;
-  display: none;
-  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links-inside {
+  display: flex;
+  align-items: center;
 }
 
 .nav-links a {
@@ -76,7 +82,8 @@ html.dark {
   text-transform: uppercase;
 }
 
-.nav-links a:hover, a:focus {
+.nav-links a:hover,
+a:focus {
   background-color: #764B8E;
   color: #fff;
 }
@@ -87,15 +94,12 @@ html.dark {
 
 @media screen and (min-width: 636px) {
   .nav-links {
-    margin-left: 5em;
-    display: block;
     position: static;
     width: auto;
     background: none;
   }
 
   .nav-links a {
-    display: inline-block;
     padding: 15px 20px;
   }
 
