@@ -29,6 +29,10 @@ html.dark {
   color: #fff;
 }
 
+.dark .social-icon {
+  fill: #ffffff;
+}
+
 .dark .icon-link a {
   color: #fff;
 }
@@ -45,6 +49,11 @@ html.dark {
   height: 5px;
   margin-bottom: 10px;
   background-color: #3D1255;
+}
+
+.social-icon {
+  fill: #6b7280; /* Default color when light theme */
+  transition: color 0.3s ease;
 }
 
 .nav-links {

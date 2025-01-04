@@ -18,7 +18,7 @@ const { theme } = Astro.props;
     </svg>
 </a>
 
-<a href="https://x.com/adrestrod" target="”_blank”" class={`social-icon ${theme === 'dark' ? 'dark-mode' : ''}`}>
+<a href="https://x.com/adrestrod" target="”_blank”" class="social-icon">
     <svg
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
@@ -35,15 +35,5 @@ const { theme } = Astro.props;
     </svg>
 </a>
 
-<style>
-    .social-icon {
-      color: #393939; /* Default color when light theme */
-      transition: color 0.3s ease;
-    }
-  
-    .social-icon.dark-mode {
-      color: #ffffff; /* Dark mode color */
-    }
-  </style>
 
 
