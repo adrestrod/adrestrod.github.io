@@ -1,6 +1,7 @@
 ---
 layout: ../../Layouts/MarkdownPostLayout.astro
 title: My Second Blog Post
+summary: 'resumen 1'
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
 image:

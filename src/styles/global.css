@@ -20,8 +20,39 @@ h1 {
   font-size: 2.5rem;
 }
 
+p {
+  font-size: 16px;
+}
+
+a {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+
+.button-34 {
+  background: #074799;
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
 html.dark {
-  background-color: #393939;
+  background-color: #001A6E;
   color: #fff;
 }
 
@@ -38,18 +69,6 @@ html.dark {
 }
 
 /* nav styles */
-.hamburger {
-  padding-right: 20px;
-  cursor: pointer;
-}
-
-.hamburger .line {
-  display: block;
-  width: 40px;
-  height: 5px;
-  margin-bottom: 10px;
-  background-color: #3D1255;
-}
 
 .social-icon {
   fill: #6b7280;
@@ -60,7 +79,7 @@ html.dark {
 .nav-links {
   width: 100%;
   top: 5rem;
-  background-color: #764B8E;
+  background-color: #009990;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -84,7 +103,7 @@ html.dark {
 
 .nav-links a:hover,
 a:focus {
-  background-color: #764B8E;
+  background-color: #009990;
   color: #fff;
 }
 
