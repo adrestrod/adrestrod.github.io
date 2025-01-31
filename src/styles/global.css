@@ -37,7 +37,7 @@ a {
   color: #FFFFFF;
   cursor: pointer;
   font-family: monospace;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 24px;
   opacity: 1;
@@ -74,12 +74,12 @@ html.dark {
   fill: #6b7280;
   /* Default color when light theme */
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 .nav-links {
   width: 100%;
   top: 5rem;
-  background-color: #009990;
   display: flex;
   align-items: center;
   justify-content: space-between;
